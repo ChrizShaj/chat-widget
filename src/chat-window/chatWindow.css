@@ -1,0 +1,92 @@
+.chatWindow {
+    width: 374px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 0.428571rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.chatHeader {
+    padding: 10px;
+    /* width: 100%; */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    background-color: #1F73B7 !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.helpHeader {
+    width: 93%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.close {
+    width: 7%;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 0;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    padding-left: 40px;
+}
+
+.search-icon {
+    width: 12px;
+    height: 12px;
+    top: 27px;
+    left: 10px;
+}
+
+.chatBody {
+    /* height: 374px; */
+    overflow: scroll;
+}
+
+select {
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.search-text {
+    text-align: right;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.cancel-icon {
+    width: 10px;
+    height: 10px;
+    top: 27px;
+    right: 12px;
+    cursor: pointer;
+}
+
+ol li {
+    margin: 10px;
+}
+.no-data {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bounce-pos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px
+}

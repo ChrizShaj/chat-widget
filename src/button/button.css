@@ -1,0 +1,14 @@
+.btn-icon {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #1F73B7 !important;
+}
